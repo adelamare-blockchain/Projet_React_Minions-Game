@@ -1,0 +1,9 @@
+.Header {
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 5px;
+}
+
+.Header img {
+    height: 50px;
+}

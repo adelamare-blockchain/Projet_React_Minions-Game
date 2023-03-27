@@ -1,0 +1,29 @@
+.Commander {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Commander button {
+  background: rgba(251, 233, 64, 0.75);
+  border: 3px solid #000;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 1em;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.Commander button:hover {
+  background: rgba(251, 233, 64, 0.95);
+}
+
+.Commander button:nth-of-type(5) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
